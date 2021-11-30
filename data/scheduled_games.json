@@ -1,0 +1,475 @@
+{
+	"status": 200,
+	"time": "2021-03-15T22:05:20.795Z",
+	"games": 6,
+	"skip": 0,
+	"results": [{
+		"schedule": {
+			"date": "2021-03-18T21:10:00.000Z",
+			"tbaTime": false
+		},
+		"summary": "Texas Southern vs Mount St. Mary's",
+		"details": {
+			"league": "NCAAB",
+			"seasonType": "postseason",
+			"season": 2020,
+			"conferenceGame": false,
+			"divisionGame": false
+		},
+		"status": "scheduled",
+		"teams": {
+			"away": {
+				"team": "Texas Southern",
+				"location": "Texas Southern",
+				"mascot": "Tigers",
+				"abbreviation": "TXSO",
+				"conference": "SWAC"
+			},
+			"home": {
+				"team": "Mount St. Mary's",
+				"location": "Mount St. Mary's",
+				"mascot": "Mountaineers",
+				"abbreviation": "MSM",
+				"conference": "Northeast"
+			}
+		},
+		"lastUpdated": "2021-03-15T20:39:38.233Z",
+		"gameId": 263700,
+		"odds": [{
+			"spread": {
+				"open": {
+					"away": -2,
+					"home": 2,
+					"awayOdds": -110,
+					"homeOdds": -110
+				},
+				"current": {
+					"away": -0.5,
+					"home": 0.5,
+					"awayOdds": -105,
+					"homeOdds": -115
+				}
+			},
+			"moneyline": {
+				"open": {
+					"awayOdds": -131,
+					"homeOdds": 116
+				},
+				"current": {
+					"awayOdds": -111,
+					"homeOdds": -105
+				}
+			},
+			"total": {
+				"open": {
+					"total": 132.5,
+					"overOdds": -110,
+					"underOdds": -110
+				},
+				"current": {
+					"total": 131.5,
+					"overOdds": -110,
+					"underOdds": -105
+				}
+			},
+			"openDate": "2021-03-15T01:44:54.485Z",
+			"lastUpdated": "2021-03-15T22:04:33.357Z"
+		}],
+		"venue": {
+			"name": "Simon Skjodt Assembly Hall",
+			"city": "Bloomington",
+			"state": "IN",
+			"neutralSite": true
+		}
+	}, {
+		"schedule": {
+			"date": "2021-03-18T22:27:00.000Z",
+			"tbaTime": false
+		},
+		"summary": "Drake vs Wichita State",
+		"details": {
+			"league": "NCAAB",
+			"seasonType": "postseason",
+			"season": 2020,
+			"conferenceGame": false,
+			"divisionGame": false
+		},
+		"status": "scheduled",
+		"teams": {
+			"away": {
+				"team": "Drake",
+				"location": "Drake",
+				"mascot": "Bulldogs",
+				"abbreviation": "DRKE",
+				"conference": "Missouri Valley"
+			},
+			"home": {
+				"team": "Wichita State",
+				"location": "Wichita State",
+				"mascot": "Shockers",
+				"abbreviation": "WICH",
+				"conference": "AAC"
+			}
+		},
+		"lastUpdated": "2021-03-15T20:39:38.434Z",
+		"gameId": 263702,
+		"odds": [{
+			"spread": {
+				"open": {
+					"away": 2,
+					"home": -2,
+					"awayOdds": -110,
+					"homeOdds": -110
+				},
+				"current": {
+					"away": 1.5,
+					"home": -1.5,
+					"awayOdds": -110,
+					"homeOdds": -110
+				}
+			},
+			"moneyline": {
+				"open": {
+					"awayOdds": 115,
+					"homeOdds": -129
+				},
+				"current": {
+					"awayOdds": 105,
+					"homeOdds": -121
+				}
+			},
+			"total": {
+				"open": {
+					"total": 139.5,
+					"overOdds": -110,
+					"underOdds": -110
+				},
+				"current": {
+					"total": 141,
+					"overOdds": -110,
+					"underOdds": -110
+				}
+			},
+			"openDate": "2021-03-15T01:44:54.161Z",
+			"lastUpdated": "2021-03-15T22:04:33.720Z"
+		}],
+		"venue": {
+			"name": "Mackey Arena",
+			"city": "West Lafayette",
+			"state": "IN",
+			"neutralSite": true
+		}
+	}, {
+		"schedule": {
+			"date": "2021-03-18T23:00:00.000Z",
+			"tbaTime": false
+		},
+		"summary": "NC State vs Davidson",
+		"details": {
+			"league": "NCAAB",
+			"seasonType": "postseason",
+			"season": 2020,
+			"conferenceGame": false,
+			"divisionGame": false
+		},
+		"status": "scheduled",
+		"teams": {
+			"away": {
+				"team": "NC State",
+				"location": "NC State",
+				"mascot": "Wolfpack",
+				"abbreviation": "NCST",
+				"conference": "ACC"
+			},
+			"home": {
+				"team": "Davidson",
+				"location": "Davidson",
+				"mascot": "Wildcats",
+				"abbreviation": "DAV",
+				"conference": "Atlantic 10"
+			}
+		},
+		"lastUpdated": "2021-03-15T20:39:37.800Z",
+		"gameId": 263704,
+		"venue": {
+			"name": "UNT Coliseum",
+			"city": "Denton",
+			"state": "TX",
+			"neutralSite": true
+		},
+		"odds": [{
+			"spread": {
+				"open": {
+					"away": 2.5,
+					"home": -2.5,
+					"awayOdds": -110,
+					"homeOdds": -110
+				},
+				"current": {
+					"away": 1.5,
+					"home": -1.5,
+					"awayOdds": -110,
+					"homeOdds": -110
+				}
+			},
+			"moneyline": {
+				"open": {
+					"awayOdds": 106,
+					"homeOdds": -118
+				},
+				"current": {
+					"awayOdds": 105,
+					"homeOdds": -121
+				}
+			},
+			"total": {
+				"open": {
+					"total": 139,
+					"overOdds": -110,
+					"underOdds": -110
+				},
+				"current": {
+					"total": 139.5,
+					"overOdds": -110,
+					"underOdds": -105
+				}
+			},
+			"openDate": "2021-03-15T10:37:13.354Z",
+			"lastUpdated": "2021-03-15T22:04:34.146Z"
+		}]
+	}, {
+		"schedule": {
+			"date": "2021-03-19T00:40:00.000Z",
+			"tbaTime": false
+		},
+		"summary": "Appalachian State vs Norfolk State",
+		"details": {
+			"league": "NCAAB",
+			"seasonType": "postseason",
+			"season": 2020,
+			"conferenceGame": false,
+			"divisionGame": false
+		},
+		"status": "scheduled",
+		"teams": {
+			"away": {
+				"team": "Appalachian State",
+				"location": "Appalachian State",
+				"mascot": "Mountaineers",
+				"abbreviation": "APP",
+				"conference": "Sun Belt"
+			},
+			"home": {
+				"team": "Norfolk State",
+				"location": "Norfolk State",
+				"mascot": "Spartans",
+				"abbreviation": "NORF",
+				"conference": "MEAC"
+			}
+		},
+		"lastUpdated": "2021-03-15T20:39:38.635Z",
+		"gameId": 263703,
+		"odds": [{
+			"spread": {
+				"open": {
+					"away": -3,
+					"home": 3,
+					"awayOdds": -110,
+					"homeOdds": -105
+				},
+				"current": {
+					"away": -3,
+					"home": 3,
+					"awayOdds": -105,
+					"homeOdds": -115
+				}
+			},
+			"moneyline": {
+				"open": {
+					"awayOdds": -144,
+					"homeOdds": 130
+				},
+				"current": {
+					"awayOdds": -145,
+					"homeOdds": 129
+				}
+			},
+			"total": {
+				"open": {
+					"total": 135.5,
+					"overOdds": -110,
+					"underOdds": -110
+				},
+				"current": {
+					"total": 134.5,
+					"overOdds": -110,
+					"underOdds": -110
+				}
+			},
+			"openDate": "2021-03-15T01:44:53.797Z",
+			"lastUpdated": "2021-03-15T22:04:34.584Z"
+		}],
+		"venue": {
+			"name": "Simon Skjodt Assembly Hall",
+			"city": "Bloomington",
+			"state": "IN",
+			"neutralSite": true
+		}
+	}, {
+		"schedule": {
+			"date": "2021-03-19T01:00:00.000Z",
+			"tbaTime": false
+		},
+		"summary": "SMU vs Boise State",
+		"details": {
+			"league": "NCAAB",
+			"seasonType": "postseason",
+			"season": 2020,
+			"conferenceGame": false,
+			"divisionGame": false
+		},
+		"status": "scheduled",
+		"teams": {
+			"away": {
+				"team": "SMU",
+				"location": "SMU",
+				"mascot": "Mustangs",
+				"abbreviation": "SMU",
+				"conference": "AAC"
+			},
+			"home": {
+				"team": "Boise State",
+				"location": "Boise State",
+				"mascot": "Broncos",
+				"abbreviation": "BSU",
+				"conference": "Mountain West"
+			}
+		},
+		"lastUpdated": "2021-03-15T20:39:38.026Z",
+		"gameId": 263736,
+		"venue": {
+			"name": "Comerica Center",
+			"city": "Frisco",
+			"state": "TX",
+			"neutralSite": true
+		},
+		"odds": [{
+			"spread": {
+				"open": {
+					"away": 1,
+					"home": -1,
+					"awayOdds": -110,
+					"homeOdds": -110
+				},
+				"current": {
+					"away": 1.5,
+					"home": -1.5,
+					"awayOdds": -110,
+					"homeOdds": -110
+				}
+			},
+			"moneyline": {
+				"open": {
+					"awayOdds": 101,
+					"homeOdds": -113
+				},
+				"current": {
+					"awayOdds": 105,
+					"homeOdds": -121
+				}
+			},
+			"total": {
+				"open": {
+					"total": 145,
+					"overOdds": -110,
+					"underOdds": -110
+				},
+				"current": {
+					"total": 145.5,
+					"overOdds": -110,
+					"underOdds": -105
+				}
+			},
+			"openDate": "2021-03-15T10:37:13.973Z",
+			"lastUpdated": "2021-03-15T22:04:34.977Z"
+		}]
+	}, {
+		"schedule": {
+			"date": "2021-03-19T01:57:00.000Z",
+			"tbaTime": false
+		},
+		"summary": "UCLA vs Michigan State",
+		"details": {
+			"league": "NCAAB",
+			"seasonType": "postseason",
+			"season": 2020,
+			"conferenceGame": false,
+			"divisionGame": false
+		},
+		"status": "scheduled",
+		"teams": {
+			"away": {
+				"team": "UCLA",
+				"location": "UCLA",
+				"mascot": "Bruins",
+				"abbreviation": "UCLA",
+				"conference": "Pac 12"
+			},
+			"home": {
+				"team": "Michigan State",
+				"location": "Michigan State",
+				"mascot": "Spartans",
+				"abbreviation": "MSU",
+				"conference": "Big Ten"
+			}
+		},
+		"lastUpdated": "2021-03-15T20:39:38.827Z",
+		"gameId": 263701,
+		"odds": [{
+			"spread": {
+				"open": {
+					"away": 1.5,
+					"home": -1.5,
+					"awayOdds": -105,
+					"homeOdds": -115
+				},
+				"current": {
+					"away": 2.5,
+					"home": -2.5,
+					"awayOdds": -110,
+					"homeOdds": -110
+				}
+			},
+			"moneyline": {
+				"open": {
+					"awayOdds": 106,
+					"homeOdds": -120
+				},
+				"current": {
+					"awayOdds": 123,
+					"homeOdds": -139
+				}
+			},
+			"total": {
+				"open": {
+					"total": 136.5,
+					"overOdds": -110,
+					"underOdds": -110
+				},
+				"current": {
+					"total": 135.5,
+					"overOdds": -105,
+					"underOdds": -110
+				}
+			},
+			"openDate": "2021-03-15T01:44:54.813Z",
+			"lastUpdated": "2021-03-15T22:04:35.397Z"
+		}],
+		"venue": {
+			"name": "Mackey Arena",
+			"city": "West Lafayette",
+			"state": "IN",
+			"neutralSite": true
+		}
+	}]
+}
