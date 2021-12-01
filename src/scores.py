@@ -17,10 +17,6 @@ def get_scores():
 
 	querystring = {"league":"ncaab","date":"2021-03-19"}
 
-	headers = {
-    	'x-rapidapi-key': "b60ba00ee6mshb174d90c59393a3p16622ejsn2149c7734952",
-    	'x-rapidapi-host': "sportspage-feeds.p.rapidapi.com"
-    }
 	try:
 		response = requests.request("GET", url, headers=headers, params=querystring)
 
