@@ -10,10 +10,10 @@
 
 ## TO-DO:
 1. **Dockerize It** (Heavy Effort) 
-   [ ] Implement MySQL
-   [ ] Create utility functions to connect to docker and query db
+   [x] Implement MySQL
+   [x] Implement Docker-Compose
+   [ ] Generalize utility functions to connect to docker and query db on start up
    [ ] Add API endpoints Flask app.py
-   [ ] Implement Docker-Compose
 
 2. **Database Models** (Small Effort) 
    [x] Create Models for Users, Gameboards, and schools
@@ -21,7 +21,7 @@
 3. **SuperAdmin and Admin Functionality Logic** (Small effort)
    [ ] Manage users (add, edit, remove users)
    [ ] Manage picks (add, edit, remove picks)
-   [ ] SuperAdmin inherits Admin functionality
+   [ ] SuperAdmin inherits Admin functionality plus:
    *  [ ] Access all users (CRUD)
    *  [ ] Access all games (CRUD)
 
@@ -39,12 +39,14 @@
   * Owner
   * Users
   * Picks (JSON)
-  * Losers
 * User
   * Name
   * Email
   * Password
-  * Linked Games 
+  * Admin
+* User Game Match
+   * User ID
+   * Game ID
 * School
   * Name
   * Mascot
@@ -68,5 +70,7 @@
    * Stores latest results from games being played
 
 * Probability to Win % per player on board
+
+* Integrate Leagues (to make yearly sign ups easier)
   
 
