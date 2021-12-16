@@ -1,6 +1,6 @@
 # Madness Service
 
-## Current State - 11/30/21
+## Current State - UPDATE 12/15/21
 1. **Dockerize It** (Medium Effort) 
    - [x] Implement MySQL
    - [x] Implement Docker-Compose
@@ -82,3 +82,4 @@
 * Integrate Leagues (to make yearly sign ups easier)
   
 
+Start Date - 11/15/2021
