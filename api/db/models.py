@@ -4,22 +4,29 @@ from sqlalchemy import Column, Integer, ARRAY, JSON, String, Boolean, inspect
 from sqlalchemy.orm import relationship
 from sqlalchemy.dialects import postgresql
 from sqlalchemy.ext.declarative import declarative_base
+from sqlalchemy.sql.schema import ForeignKey
 
 Base = declarative_base()
 
-class User(Base):
-    __table_name__ = 'users'
+class Users(Base):
+    __tablename__ = 'users'
+
+    def __repr__(self):
+        return str(self.to_dict())
 
     id = Column(Integer, primary_key=True)
     name = Column(String, nullable=False)
+    username = Column(String, nullable=False)
     # Store as md5 Hash
-    password = Column(String, nullable=False)
     email = Column(String, nullable=False)
+    password = Column(String, nullable=False)
+    admin = Column(Boolean, default=False)
+    created_at = Column(postgresql.TIMESTAMP(timezone=False), nullable=False, default=datetime.utcnow)
+    last_updated = Column(postgresql.TIMESTAMP(timezone=False), default=datetime.utcnow)    
     # TODO: color schemes determined by favorite team
-    favorite_team = Column(relationship(School, lazy='immediate'))
-    theme = Column(String, default='default')
-    games = Column(ARRAY, default=[])
-    active = Column(Boolean, default=True)
+    # favorite_team = Column(relationship(School, lazy='immediate'))
+    # theme = Column(String, default='default')
+    # active = Column(Boolean, default=True)
 
     @classmethod
     def from_dict(cls, d):
@@ -33,16 +40,15 @@ class User(Base):
             for c in inspect(self).mapper.column_attrs
         }
 
-class GameBoard(Base):
-    _table_name_ = 'game_boards'
+class Games(Base):
+    __tablename__ = 'games'
 
     id = Column(Integer, primary_key=True)
     # TODO: Create method to generate Default Gameboard Name
-    name = Column(String, default = '')
-    users = Column(ARRAY, default=[])
-    selections = Column(JSON, default={})
+    title = Column(String, default = '')
+    picks = Column(String, default={})
     active = Column(Boolean, default=True)
-    owner = relationship(User, lazy='immediate')
+    owner = Column(ForeignKey(Users.id))
     created_at = Column(postgresql.TIMESTAMP(timezone=False), nullable=False, default=datetime.utcnow)
     last_updated = Column(postgresql.TIMESTAMP(timezone=False), default=datetime.utcnow)
 
@@ -58,13 +64,15 @@ class GameBoard(Base):
             for c in inspect(self).mapper.column_attrs
         }
 
-class School(Base):
-    __table_name__ = 'schools'
+class Schools(Base):
+    __tablename__ = 'schools'
 
     id = Column(Integer, primary_key=True)
     name = Column(String, nullable=False)
     mascot = Column(String)
     initials = Column(String)
+    created_at = Column(postgresql.TIMESTAMP(timezone=False), nullable=False, default=datetime.utcnow)
+    last_updated = Column(postgresql.TIMESTAMP(timezone=False), default=datetime.utcnow)
 
     @classmethod
     def from_dict(cls, d):
