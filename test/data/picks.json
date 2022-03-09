@@ -1,146 +1,133 @@
-[
-	{
-		"name": "Foxo",
-		"picks": {
-			"north": "Alabama",
-			"south": "Oklahoma",
-			"midwest": "Utah State",
-			"west": "Syracuse"
-		}
-	},
-	{
-		"name": "Taylor",
-		"picks": {
-			"north": "Iowa",
-			"south": "Winthrop",
-			"midwest": "Colorado",
-			"west": "San Diego State"
-		}
-	},
-		{
-		"name": "Gailey",
-		"picks": {
-			"north": "Illinois",
-			"south": "Georgetown",
-			"midwest": "Villanova",
-			"west": "UC Santa Barbara"
-		}
-	},
-		{
-		"name": "Bill Brown",
-		"picks": {
-			"north": "Virginia",
-			"south": "Florida",
-			"midwest": "Connecticut",
-			"west": "Clemson"
-		}
-	},
-		{
-		"name": "Bob Gaw",
-		"picks": {
-			"north": "Kansas",
-			"south": "Texas Tech",
-			"midwest": "LSU",
-			"west": "Oregon St"
-		}
-	},
-		{
-		"name": "Darco",
-		"picks": {
-			"north": "Purdue",
-			"south": "Grand Canyon",
-			"midwest": "St. Bonaventure",
-			"west": "Drexel"
-		}
-	},
-		{
-		"name": "Dev",
-		"picks": {
-			"north": "West Virginia",
-			"south": "Maryland",
-			"midwest": "Wisconsin",
-			"west": "Eastern Washington"
-		}
-	},
-		{
-		"name": "Bob Hawk",
-		"picks": {
-			"north": "Oklahoma State",
-			"south": "UCLA",
-			"midwest": "Colgate",
-			"west": "Creighton"
-		}
-	},
-		{
-		"name": "Sikes",
-		"picks": {
-			"north": "Texas",
-			"south": "Oral Roberts",
-			"midwest": "Missouri",
-			"west": "Liberty"
-		}
-	},
-		{
-		"name": "Stine/Tom",
-		"picks": {
-			"north": "Florida State",
-			"south": "Drake",
-			"midwest": "Hartford",
-			"west": "Georgia Tech"
-		}
-	},
-		{
-		"name": "Jetes",
-		"picks": {
-			"north": "Houston",
-			"south": "Iona",
-			"midwest": "North Texas",
-			"west": "USC"
-		}
-	},
-		{
-		"name": "Patrick",
-		"picks": {
-			"north": "Ohio State",
-			"south": "Ohio",
-			"midwest": "Texas Southern",
-			"west": "Loyola Chicago"
-		}
-	},
-		{
-		"name": "Neil",
-		"picks": {
-			"north": "Baylor",
-			"south": "Oregon",
-			"midwest": "Abilene Christian",
-			"west": "Cleveland State"
-		}
-	},
-		{
-		"name": "Artie",
-		"picks": {
-			"north": "Arkansas",
-			"south": "Virginia Commonwealth",
-			"midwest": "Brigham Young",
-			"west": "Moorehead State"
-		}
-	},
-		{
-		"name": "Birdie",
-		"picks": {
-			"north": "Michigan",
-			"south": "Rutgers",
-			"midwest": "North Carolina",
-			"west": "Norfolk State"
-		}
-	},
-		{
-		"name": "Sally/Mike",
-		"picks": {
-			"north": "Gonzaga",
-			"south": "Virginia Tech",
-			"midwest": "UNC Greensboro",
-			"west": "Tennessee"
-		}
-	}
-]
+{
+    "picks":
+    [
+        {
+			"id": 1,
+            "user": "Foxo",
+            "north": "Alabama",
+            "south": "Oklahoma",
+            "midwest": "Utah State",
+            "west": "Syracuse"
+        },
+        {
+			"id": 2,
+            "user": "Taylor",
+            "north": "Iowa",
+            "south": "Winthrop",
+            "midwest": "Colorado",
+            "west": "San Diego State"
+        },
+        {
+			"id": 3,
+            "user": "Gailey",
+            "north": "Illinois",
+            "south": "Georgetown",
+            "midwest": "Villanova",
+            "west": "UC Santa Barbara"
+        },
+        {
+			"id": 4,
+            "user": "Bill Brown",
+            "north": "Virginia",
+            "south": "Florida",
+            "midwest": "Connecticut",
+            "west": "Clemson"
+        },
+        {
+			"id": 5,
+            "user": "Bob Gaw",
+            "north": "Kansas",
+            "south": "Texas Tech",
+            "midwest": "LSU",
+            "west": "Oregon St"
+        },
+        {
+			"id": 6,
+            "user": "Darco",
+            "north": "Purdue",
+            "south": "Grand Canyon",
+            "midwest": "St. Bonaventure",
+            "west": "Drexel"
+        },
+        {
+			"id": 7,
+            "user": "Dev",
+            "north": "West Virginia",
+            "south": "Maryland",
+            "midwest": "Wisconsin",
+            "west": "Eastern Washington"
+        },
+        {
+			"id": 8,
+            "user": "Bob Hawk",
+            "north": "Oklahoma State",
+            "south": "UCLA",
+            "midwest": "Colgate",
+            "west": "Creighton"
+        },
+        {
+			"id": 9,
+            "user": "Sikes",
+            "north": "Texas",
+            "south": "Oral Roberts",
+            "midwest": "Missouri",
+            "west": "Liberty"
+        },
+        {
+			"id": 10,
+            "user": "Stine/Tom",
+            "north": "Florida State",
+            "south": "Drake",
+            "midwest": "Hartford",
+            "west": "Georgia Tech"
+        },
+        {
+			"id": 11,
+            "user": "Jetes",
+            "north": "Houston",
+            "south": "Iona",
+            "midwest": "North Texas",
+            "west": "USC"
+        },
+        {
+			"id": 12,
+            "user": "Patrick",
+            "north": "Ohio State",
+            "south": "Ohio",
+            "midwest": "Texas Southern",
+            "west": "Loyola Chicago"
+        },
+        {
+			"id": 13,
+            "user": "Neil",
+            "north": "Baylor",
+            "south": "Oregon",
+            "midwest": "Abilene Christian",
+            "west": "Cleveland State"
+        },
+        {
+			"id": 14,
+            "user": "Artie",
+            "north": "Arkansas",
+            "south": "Virginia Commonwealth",
+            "midwest": "Brigham Young",
+            "west": "Moorehead State"
+        },
+        {
+			"id": 15,
+            "user": "Birdie",
+            "north": "Michigan",
+            "south": "Rutgers",
+            "midwest": "North Carolina",
+            "west": "Norfolk State"
+        },
+        {
+			"id": 16,
+            "user": "Sally/Mike",
+            "north": "Gonzaga",
+            "south": "Virginia Tech",
+            "midwest": "UNC Greensboro",
+            "west": "Tennessee"
+        }
+    ]
+}
