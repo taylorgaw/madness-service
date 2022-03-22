@@ -78,7 +78,7 @@ def update_teams(**updates: Dict[str, Any]) -> None:
 
 # Selection Sunday Sync
 def update_picks():
-    pattern = re.compile('(East|Midwest|West|Southeast) ([1]?[0-9])')
+    pattern = re.compile('(East|Midwest|West|South) ([1]?[0-9])')
 
     selections = json.loads(get_current_teams().to_dict()['regions'])
     games = [ game.to_dict() for game in get_all_games() ]
@@ -89,9 +89,11 @@ def update_picks():
             for key in pick:
                 if key != 'user' and key != 'id':
                     value = pick[key]
-                    region, seed = pattern.findall(value)[0]
-                    team_name = find_selection(selections, region, seed)
-                    pick[key] = team_name
+                    regex_finder = pattern.findall(value)
+                    if(regex_finder):
+                        region, seed = regex_finder[0]
+                        team_name = find_selection(selections, region, seed)
+                        pick[key] = team_name
         pick_string = json.dumps(picks_dict)
         update_game(int(game['id']), **{"picks": pick_string})
   

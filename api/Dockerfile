@@ -1,13 +1,13 @@
-# syntax=docker/dockerfile:1
+#!/bin/bash
 FROM python:3.8-slim-buster
 
 ENV FLASK_APP=app.py
 COPY api/requirements.txt requirements.txt
-RUN pip3 install -r requirements.txt
+RUN python -m pip install -r requirements.txt
 EXPOSE 5000
 COPY . .
 ENV PYTHONPATH=/api/
 
 WORKDIR /api
 
-ENTRYPOINT [ "python", "-m" , "flask", "run", "--host=0.0.0.0"]
+ENTRYPOINT [ "python", "app.py" ]
