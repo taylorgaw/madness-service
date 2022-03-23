@@ -44,6 +44,7 @@ class Teams(Base):
     id = Column(Integer, primary_key=True)
     year = Column(String, default = '')
     regions = Column(String, default='\{\}')
+    losers = Column(String, default='')
     created_at = Column(postgresql.TIMESTAMP(timezone=False), nullable=False, default=datetime.utcnow)
     last_updated = Column(postgresql.TIMESTAMP(timezone=False), default=datetime.utcnow)
 
@@ -54,7 +55,10 @@ class Teams(Base):
         )
 
     def to_dict(self):
-        return {
+        team_dict =  {
             c.key: getattr(self, c.key)
             for c in inspect(self).mapper.column_attrs
         }
+
+        team_dict['losers'] = team_dict['losers'].split(',')
+        return team_dict

@@ -95,6 +95,8 @@ def get_teams():
 @app.route("/teams", methods=['PUT'])
 def update_teams():
 	body = request.get_json()
+	if 'losers' in body:
+		body['losers'] = ','.join(body['losers'])
 	db_utils.update_teams(**body)
 
 	updated_teams = db_utils.get_current_teams()
